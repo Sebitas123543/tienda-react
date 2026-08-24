@@ -41,3 +41,9 @@ const promediado = calcularPromedio(3,2,4)
 console.log(promediado);
 
 //EL CONSOLE LOG MUESTRA ALGO EN LA CONSOLA Y EL RETURN DEVUELVE UN VALOR
+
+function buscarProducto(id) {
+  return productos.find(producto => producto.id === id);
+}
+
+console.log(buscarProducto(3)); 

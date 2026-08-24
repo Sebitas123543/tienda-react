@@ -23,7 +23,7 @@ console.log(productosRango);
 const productosHardware = productos.filter (producto => producto.categoria === "Hardware" );
 console.log(productosHardware);
 
-const filtrarId = productos.filter (producto => producto.indice === 5);
+const filtrarId = productos.filter(producto => producto.id === 5);
 console.log(filtrarId);
 
 const buscarProducto = (id) => {return productos.find(producto => producto.id === id);};
